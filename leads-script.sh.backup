@@ -1,0 +1,38 @@
+LOG_PATH=""
+LOG_NAME=$LOG_PATH"erlerobotics.com.access.log-20150405"
+UNIQUE_IPS="unique-ips.txt"
+UNIQUE_IPS_AUX="unique-ips.txt.aux"
+REPORT_FILE="report.txt"
+
+# Clear report file
+echo "" > $REPORT_FILE
+echo "========================" >> $REPORT_FILE
+echo "========================" >> $REPORT_FILE
+echo "========================" >> $REPORT_FILE
+echo "      REPORT          ">> $REPORT_FILE
+echo "========================" >> $REPORT_FILE
+echo "========================" >> $REPORT_FILE
+echo "========================" >> $REPORT_FILE
+
+# Unique IPs and source queried (format: <ip address> <relative-path-resource>)
+cat $LOG_NAME | awk '{print $1" "$7 "\n"}' | grep blog/product | sort -u | head -20  > $UNIQUE_IPS_AUX
+
+# Domains with dig
+cat $UNIQUE_IPS_AUX | awk '{print $1" #resource: "$2}' | sed 's/^/dig -x /' | sed "s/#/| head -12 | tail -1| awk '{print "'$5'"}' #/" \
+    > domains.aux
+
+while read p; do
+    echo "========================" >> $REPORT_FILE
+    echo "      LEAD                 ">> $REPORT_FILE
+    echo "========================" >> $REPORT_FILE
+    echo $p | awk '{print "\t\t"$3" "$13" "$14}' >> $REPORT_FILE
+    DOMAIN=$(echo $p | bash)
+    echo $DOMAIN >> $REPORT_FILE
+    echo $DOMAIN | awk '{print "theHarvester/theHarvester.py -d "$0" -l 100 -b google"}' | bash | \
+        tail -n+15 >> $REPORT_FILE
+
+done < domains.aux
+rm domains.aux
+
+cat $REPORT_FILE
+

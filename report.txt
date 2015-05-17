@@ -1,0 +1,103 @@
+
+
+node-fp0.pool-1-10.dynamic.totbb.net.
+node-hfc.pool-1-0.dynamic.totbb.net.
+node-o3k.pool-1-0.dynamic.totbb.net.
+========================
+========================
+REPORT            
+========================
+========================
+========================
+      LEAD                 
+========================
+|
+
+Searched for: 
+/blog/category/uncategorized/page/2/
+/blog/home-creative/
+/blog/erle-copter/
+/blog/category/uncategorized/page/2/
+/blog/home-creative/
+/blog/home-creative/
+/blog/category/uncategorized/page/2/
+/blog/category/uncategorized/page/2/
+/blog/category/uncategorized/page/2/
+/blog/en/author/david/
+/blog/home-creative/
+/blog/home-creative/
+/blog/home-creative/
+/blog/home-creative/
+/blog/category/uncategorized/page/2/
+/blog/home-creative/
+/blog/home-creative/
+/blog/home-creative/
+/blog/home-creative/
+/blog/home-creative/
+/blog/home-creative/
+
+========================
+      LEAD                 
+========================
+1.0.216.56
+node-hfc.pool-1-0.dynamic.totbb.net.
+Searched for: 
+/blog/wp-content/uploads/2014/10/brain-v1.1-focus.png
+
+[-] Searching in Google:
+	Searching 0 results...
+	Searching 100 results...
+
+
+[+] Emails found:
+------------------
+No emails found
+
+[+] Hosts found in search engines:
+------------------------------------
+No hosts found
+========================
+      LEAD                 
+========================
+1.0.250.0
+node-o3k.pool-1-0.dynamic.totbb.net.
+Searched for: 
+/wp-config.php_
+/blog/wp-cron.php?doing_wp_cron=1427867824.7246799468994140625000
+/blog/wp-cron.php?doing_wp_cron=1427917289.3312759399414062500000
+/blog/wp-cron.php?doing_wp_cron=1427919021.6869850158691406250000
+/blog/wp-cron.php?doing_wp_cron=1428000156.1662750244140625000000
+/blog/wp-cron.php?doing_wp_cron=1428080372.4650650024414062500000
+
+[-] Searching in Google:
+	Searching 0 results...
+	Searching 100 results...
+
+
+[+] Emails found:
+------------------
+No emails found
+
+[+] Hosts found in search engines:
+------------------------------------
+No hosts found
+========================
+      LEAD                 
+========================
+1.10.207.116
+node-fp0.pool-1-10.dynamic.totbb.net.
+Searched for: 
+/blog/wp-content/uploads/2014/10/brain-v1.1-focus.png
+
+[-] Searching in Google:
+	Searching 0 results...
+	Searching 100 results...
+
+
+[+] Emails found:
+------------------
+@node-fp0.pool-1-10.dynamic.totbb.net.
+
+[+] Hosts found in search engines:
+------------------------------------
+No hosts found
